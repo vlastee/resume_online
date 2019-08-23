@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap');
+
+#first-col-sidebar-header{
+    width: 100%;
+    z-index: 1;
+}
+
+
+.sidebar-photo{
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px;
+    background-color: gold;
+}
+
+.my-name-sidebar{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+    padding-left: 45px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#resume-top-text {
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#resume-top-text .active{
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#topic-badge-background{
+    background-color: #a96dcc;
+    color: aliceblue;
+}
+
+#card-badge-background{
+    background-color: #a96dcc;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+#skills-card div.col{
+    padding-top: 5px;
+}
+
+#skills-card div.col-sm{
+    padding-top: 5px;
+}
+
+.card{
+    background-color: #a96dcccc;
+}
+
+#text-and-link{
+    margin-top: 17px;
+}
+
+#text-and-link h5 {
+    margin-bottom: 10px;
+}
+
+#text-and-link button{
+    margin-top: 15px;
+}
+
+#font-awesome {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: #a96dcc;
+}
+
+#font-awesome:hover {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: #dfbe05;
+}
+
+.card-title {
+    color: #dfbe05;
+    margin-bottom: 0;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+  .certificates a{
+      color: #cfcbcb;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 1.2em;
+  }
+
+  .certificates a:hover{
+      color: #ecc722;
+      background-color: #a96dcc;
+      padding: 3px;
+      padding-left: 6px;
+      padding-right: 6px;
+      border-radius: 20px;
+  }
+
+h3.abot-myself{
+    color: #cfcbcb;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.abot-myself{
+    color: azure;
+    margin-bottom: 1px;
+    padding-top: 1px;
+}
+
+#social-networks{
+    margin: 2px;
+    display: none;
+    text-align: center;
+    box-sizing: none;
+}
+
+#back-to-top {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #f5f5f5;
+    color: #444;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: .1;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+.crtification-text{
+    font-family: 'Poppins', sans-serif;
+    color: #cfcbcb;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    font-size: 1.0em;
+}
+#card-title-box{
+    background-color: #513c5e;
+}
+  
