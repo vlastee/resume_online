@@ -174,6 +174,7 @@ $(document).ready(function () {
     var websiteFacebook = ('https://www.facebook.com/vlastee');
     var websiteDiscord = ('Vlastee#6372');
     var websiteTelega = ('https://t.me/Vlastee');
+    var websiteGitHub = ('https://github.com/vlastee');
     function clickFn(element ,website){
         $(element).on('click', function () {
             var win = window.open(website, '_blank');
@@ -190,6 +191,7 @@ $(document).ready(function () {
     clickFn('.fa-facebook-square', websiteFacebook);
     clickFn('.fa-linkedin', websiteLinkedIn);
     clickFn('.fa-telegram', websiteTelega);
+    clickFn('.fa-git-square', websiteGitHub);
 });
 
 $(function () {
